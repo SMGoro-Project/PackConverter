@@ -25,5 +25,7 @@ jobs:
     - name: Upload JAR file
       uses: actions/upload-artifact@v2
       with:
-        name: text one
-        path: /bootstrap/libs/*.jar
+        name: one
+        path: ./build/libs/*.jar
+      
+        

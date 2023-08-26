@@ -26,6 +26,6 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: one
-        path: ./build/libs/*.jar
+        path: ./bootstrap/build/libs/*.jar
       
         
